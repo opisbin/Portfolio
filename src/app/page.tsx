@@ -40,14 +40,23 @@ export default function Home() {
         </motion.div>
       </section> */}
       <HeroSection />
-      
+
+      <p>
+        <span className="block h-0.25 bg-gray-500 "></span>{" "}
+        {/* adds 2rem gap */}
+      </p>
       {/* Skills Section */}
       <SkillsSection />
 
+      <p>
+        <span className="block h-0.25 bg-gray-500 "></span>{" "}
+        {/* adds 2rem gap */}
+      </p>
+
       {/* Projects Section */}
-      <section id="projects" className="py-20 px-6 bg-gray-50">
+      <section id="projects" className="py-20 px-6 bg-gray-900">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold mb-10 text-center">Projects</h2>
+          <h2 className="text-4xl font-bold mb-10 text-center text-white">Projects</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[1, 2, 3].map((project) => (
               <motion.div
@@ -63,7 +72,9 @@ export default function Home() {
                   className="object-cover"
                 />
                 <div className="p-4">
-                  <h3 className="text-xl font-semibold mb-2">Project {project}</h3>
+                  <h3 className="text-xl font-semibold mb-2">
+                    Project {project}
+                  </h3>
                   <p className="text-gray-600 text-sm">
                     Short description of the project goes here.
                   </p>
@@ -75,9 +86,9 @@ export default function Home() {
       </section>
 
       {/* Testimonials Section */}
-      <section id="testimonials" className="py-20 px-6 bg-white">
+      <section id="testimonials" className="py-20 px-6 bg-gray-900">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-10">Testimonials</h2>
+          <h2 className="text-4xl font-bold mb-10 text-white">Testimonials</h2>
           <div className="grid md:grid-cols-2 gap-8">
             {[1, 2].map((t) => (
               <motion.div
