@@ -41,9 +41,6 @@ export default function Home() {
       </section> */}
       <HeroSection />
       
-      {/* Divider */}
-      {/* <div className="my-16 border-t-2 border-gray-500 w-full"></div> */}
-
       {/* Skills Section */}
       <SkillsSection />
 
