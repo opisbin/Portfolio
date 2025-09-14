@@ -1,6 +1,7 @@
 "use client";
 
 import HeroSection from "@/components/HeroSection";
+import ProjectCard from "@/components/ProjectCard";
 import SkillsSection from "@/components/SkillsSection";
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -47,6 +48,9 @@ export default function Home() {
       </p>
       {/* Skills Section */}
       <SkillsSection />
+
+      {/* ProjectCard */}
+      <ProjectCard />
 
       <p>
         <span className="block h-0.25 bg-gray-500 "></span>{" "}
